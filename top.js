@@ -1,4 +1,4 @@
-$('html').ready(function() {
+$(document).ready(function() {
   $('#movetopbt').bind('click', function() {
     $('html').animate({scrollTop: '0'}, 680);
   });
